@@ -1,6 +1,16 @@
 {
     "name": "root/app",
     "require": {
-        "prooph/common": "^4.3"
+        "prooph/common": "^4.3",
+        "prooph/service-bus": "^6.2",
+        "prooph/event-sourcing": "^5.6",
+        "prooph/event-store": "^7.5",
+        "prooph/pdo-event-store": "^1.10",
+        "prooph/event-store-bus-bridge": "^3.3",
+        "prooph/snapshotter": "^2.1",
+        "prooph/pdo-snapshot-store": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {"App\\": "src/"}
     }
 }
