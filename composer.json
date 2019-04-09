@@ -1,0 +1,6 @@
+{
+    "name": "root/app",
+    "require": {
+        "prooph/common": "^4.3"
+    }
+}
